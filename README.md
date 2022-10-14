@@ -4,6 +4,14 @@ This is the simple boiler plate react app which is further dockerized.
 
 Link to the image on dockerhub: https://hub.docker.com/r/tandan/dockerreact
 
+The two important files for creating build version are in **master branch: Dockerfile, nginx.conf**
+
+After having these files following command has to be executed to create a docker image:
+
+        npm run build
+        
+        docker build --tag dockerreact:1.0.0 .
+
 Follow the following commands to run the container on your device:
 
 - This command will pull the image from dockerhub in your system
