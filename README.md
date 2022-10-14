@@ -1,6 +1,6 @@
 # Dockerreact
 
-This is the simple boiler plate react app which is further dockerized for learning process.
+This is the simple boiler plate react app which is further dockerized.
 
 Link to the image on dockerhub: https://hub.docker.com/r/tandan/dockerreact
 
