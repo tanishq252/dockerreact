@@ -36,4 +36,4 @@ Follow the following commands to run the container on your device:
 
       docker run -d -p 4444:80 tandan/dockerreact:1.0.0
     
-- After successfully running above command, open *http://localhost:4444/* on your browser, and the basic boiler plate code will be infront of you
+- After successfully running above command, open *http://localhost:4444/* on your browser, and the basic user interface will be infront of you
