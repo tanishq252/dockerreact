@@ -10,7 +10,13 @@ After having these files following command has to be executed to create a docker
 
         npm run build
         
-        docker build --tag dockerreact:1.0.0 .
+        docker build --tag <docker hub user name>/dockerreact:1.0.0 .
+        
+Further enter following command to get the id of container and push it on docker hub using following commands, make sure you are logged in to docker hub account on your system before executing the second command.
+
+        docker ps
+        
+        docker push <Image ID> <docker hub user name>/dockerreact:1.0.0
 
 Follow the following commands to run the container on your device:
 
